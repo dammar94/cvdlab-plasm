@@ -9,11 +9,11 @@
  * Library dependencies.
  */
 
-var THREE = require('three');
-var detector = require('three-detector');
-var Stats = require('three-stats');
-var Trackball = require('three-trackball');
-var simplexn = require('simplexn');
+var THREE = require('cvdlab-three');
+var detector = require('cvdlab-three-detector');
+var Stats = require('cvdlab-three-stats');
+var Trackball = require('cvdlab-three-trackball');
+var simplexn = require('cvdlab-simplexn');
 
 var toString = {}.toString;
 var max = Math.max;

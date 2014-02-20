@@ -1,30 +1,23 @@
 {
-  "name": "plasm",
-  "description": "JavaScript Programming LAnguage for Solid Modeling",
+  "name": "cvdlab-plasm",
+  "description": "JavaScript Programming Language for Solid Modeling",
   "version": "0.3.0",
-  "maintainers": [ 
-    {
-      "name": "Enrico Marino",
-      "email": "enrico.marino@email.com"
-    },
-    {
-      "name": "Federico Spini",
-      "email": "federico.spini@gmail.com"
-    }
+  "keywords": [
+    "solid modeling",
+    "3D",
+    "WebGL",
+    "CAD"
   ],
-  "homepage": "https://github.com/cvdlab/plasm",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/cvdlab/plasm.git"
-  },
-  "main": "index.js",
-  "engines": {
-    "node": "*"
-  },
+  "styles": [
+    "style.css"
+  ],
   "dependencies": {
-    "simplexn": "*"
+    "cvdlab-simplexn": "git://github.com/npmcomponent/cvdlab-simplexn.git",
+    "cvdlab-three": "git://github.com/npmcomponent/cvdlab-three.git",
+    "cvdlab-three-detector": "git://github.com/npmcomponent/cvdlab-three-detector.git",
+    "cvdlab-three-stats": "git://github.com/npmcomponent/cvdlab-three-stats.git",
+    "cvdlab-three-trackball": "git://github.com/npmcomponent/cvdlab-three-trackball.git",
+    "enricomarino-css-reset": "git://github.com/npmcomponent/enricomarino-css-reset.git"
   },
-  "devDependencies": {
-    "component": "*"
-  }
+  "license": "MIT"
 }
